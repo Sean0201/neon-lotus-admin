@@ -8,10 +8,12 @@
     "start": "next start",
     "generate:data": "node scripts/generate-data.js",
     "deploy:all": "node scripts/deploy.js",
-    "import:existing": "node scripts/import-existing-data.js"
+    "import:existing": "node scripts/import-existing-data.js",
+    "scrape": "node scripts/scrape-brand.js"
   },
   "dependencies": {
     "next": "^14.2.0",
+    "dotenv": "^16.4.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "@supabase/supabase-js": "^2.45.0",
